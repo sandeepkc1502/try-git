@@ -1,0 +1,12 @@
+1. navigate to following path in windows:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Git
+
+2. right click on Git Bash file -> select Properties
+
+3. Change Target field
+	Default Value: "C:\Program Files\Git\git-bash.exe" --cd-to-home
+	Updated Value: "C:\Program Files\Git\git-bash.exe" 
+
+4. Change 'Start in' field
+	Default Value: %HOMEDRIVE%%HOMEPATH%
+	Updated Value: <folder path to select as Start Directory>
